@@ -1,0 +1,99 @@
+#wapper{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(0, 140, 255);
+}
+#header{
+    display: flex;
+    border-bottom: 10px dotted white;
+}
+ul{
+    display: flex;      
+}
+li{
+    list-style-type: none;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.sky{
+    color: white;
+    text-shadow: 5px 5px 0px blue;
+    margin-right: 20px;
+    position: absolute; /* hoặc relative, fixed */
+    right: 300px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+#wp_content_img{
+    display: flex;
+}
+#wp_content{
+    color: white;
+    width: 700px;
+    margin-left: 20px;
+}
+#wp_img{
+    color: white;
+}
+#content_img{
+    margin-left: 250px;
+    color: blue;
+}
+
+#footer{
+    border-top: 10px dotted white;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#form_group{
+    display: grid;
+    grid-template-columns: 150px 1fr; /* Cột label cố định và input chiếm phần còn lại */
+    gap: 10px; /* Khoảng cách giữa label và input */
+    margin-bottom: 15px;
+    align-items: center; /* Canh giữa theo chiều dọc */
+}
+form {
+    flex-direction: column;
+    width: 500px;
+    margin-left: 100px;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+    
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #edeef0;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+button {
+    background-color: #747474;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #0066cc;
+}

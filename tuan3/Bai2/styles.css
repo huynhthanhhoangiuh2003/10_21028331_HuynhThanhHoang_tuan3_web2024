@@ -1,0 +1,119 @@
+#wapper{
+    width: 1500px;
+    margin: 0px auto;
+    background-color: #294E79;
+    border: 2px solid black;
+}
+#header{
+    display: flex;
+}
+#logo{
+    display: flex;
+}
+#content_logo{
+    letter-spacing: 5px;
+    color: white;
+}
+#search{
+    font-size: 30px;
+    margin-left: 580px;
+    padding-top: 15px;
+}
+ul{
+    display: flex;
+    padding-left: 100px;
+    height: 40px;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+    background-color: #294E79;
+    padding: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+#content{
+    background-color: white;
+    display: flex;
+}
+#content1{
+    width: 900px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#content1_1{
+    margin-top: 20px;
+    color: #294E79;
+}
+#content1_2{
+    display: flex;
+}
+#content1_2_1{
+    width: 540px;
+    
+}
+#content1_2_1 p{
+    font-size: 18px;
+}
+#content1_2_2{
+    width: 340px;
+    padding-left: 20px;
+}
+#content1_2_2 p{
+    font-size: 18px;
+}
+#content1_2_2 a{
+    font-size: 18px;
+}
+#content2{
+    width: 400px;
+    padding-left: 4%;
+    padding-top: 30px;
+}
+#content2 p{
+    font-size: 18px;
+}
+label{
+    font-size: 20px;
+}
+#form_group{
+    display: grid;
+    grid-template-columns: 150px 1fr; /* Cột label cố định và input chiếm phần còn lại */
+    gap: 10px; /* Khoảng cách giữa label và input */
+    margin-bottom: 15px;
+    align-items: center;
+    width: 500px;
+}
+#form_contact{
+    margin-left: 20px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+}
+button:hover{
+    background-color: #294E79;
+}
+input{
+    height: 35px;
+    font-size: 15px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+#footer{
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; 
+    padding-bottom: 15px;
+    font-size: 13px;
+}
